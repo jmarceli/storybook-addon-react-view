@@ -1,6 +1,6 @@
-# React View Storybook Addon
+# Storybook Addon React View
 
-Storybook addon which makes your story source interactive [React View Storybook Addon](https://github.com/jmarceli/storybook-addon-react-view).
+Storybook addon which makes your story source interactive [Storybook Addon React View](https://github.com/jmarceli/storybook-addon-react-view).
 
 ## Installation
 
