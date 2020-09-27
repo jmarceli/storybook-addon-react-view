@@ -1,0 +1,8 @@
+src
+.editorconfig
+.prettierignore
+.prettierrc.json
+global.d.ts
+jest.config.js
+tsconfig.json
+CHANGELOG
