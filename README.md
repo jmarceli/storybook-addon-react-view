@@ -2,6 +2,9 @@
 
 Storybook addon which makes your story source interactive [Storybook Addon React View](https://github.com/jmarceli/storybook-addon-react-view).
 
+Demo: https://jmarceli.github.io/storybook-addon-react-view/
+Demo code: [docs-source](./docs-source)
+
 ## Installation
 
 If you need to add it to your Storybook, you can run:
@@ -27,7 +30,7 @@ Simple:
 ```jsx
 import React from "react";
 import { Component, ABC, myFun } from "./Component";
-import { withReactView } from "storybook-addon-react-view";
+import { withReactView } from "storybook-addon-react-view/register";
 
 export const ComponentStory: React.FC<{}> = () => (
   <Component title="X">
@@ -49,7 +52,7 @@ or with `@storybook/addon-docs`:
 ```jsx
 import React from "react";
 import { Component, ABC, myFun } from "./Component";
-import { withReactView } from "storybook-addon-react-view";
+import { withReactView } from "storybook-addon-react-view/register";
 
 export const ComponentStory: React.FC<{}> = () => (
   <Component title="X">
