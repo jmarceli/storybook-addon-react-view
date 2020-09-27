@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-react-view",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Storybook addon which makes your story source interactive",
   "keywords": [
     "addon",
