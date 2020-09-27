@@ -6,3 +6,5 @@ global.d.ts
 jest.config.js
 tsconfig.json
 CHANGELOG
+docs
+docs-source
