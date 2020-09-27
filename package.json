@@ -16,7 +16,8 @@
     "start": "rm -r ./dist/* 2>/dev/null; tsc --outDir ./dist --listEmittedFiles true",
     "watch": "watch 'npm start' ./src",
     "test": "jest",
-    "test:watch": "jest --watch src"
+    "test:watch": "jest --watch src",
+    "pack:local": "npm pack && tar -xzf storybook-addon-react-view-*"
   },
   "dependencies": {
     "@storybook/addons": "^6.0.21",
