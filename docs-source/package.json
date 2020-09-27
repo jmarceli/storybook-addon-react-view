@@ -1,0 +1,24 @@
+{
+  "name": "storybook-addon-react-view-docs",
+  "version": "0.0.1",
+  "description": "Example of storybook-addon-react-view usage",
+  "main": "stories/Button.stories.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook --output-dir ../docs"
+  },
+  "author": "Jan Grzegorowski",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addons": "^6.0.10",
+    "@storybook/react": "^6.0.10",
+    "prettier": "^2.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "storybook-addon-react-view": "file:../package"
+  },
+  "dependencies": {
+    "@storybook/addon-docs": "^6.0.10"
+  }
+}
