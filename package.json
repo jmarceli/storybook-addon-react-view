@@ -7,7 +7,9 @@
     "react-view",
     "interactive source",
     "react",
-    "storybook"
+    "storybook",
+    "storybook-addon",
+    "code"
   ],
   "license": "MIT",
   "author": "Jan Grzegorowski",
