@@ -69,6 +69,25 @@ export default {
 };
 ```
 
+### Customizing appearance
+
+You can provide classes to customize each of the three components -- Compiler (displays), Editor, and Error -- by passing `useView` `compilerClassName`, `editorClassName`, and `errorClassName` props respectively.
+
+```jsx
+
+export default {
+  title: "Component",
+  component: Component,
+  decorators: [withReactView],
+  parameters: { useView: { 
+    scope: { Component, ABC, myFun }
+    compilerClassName: "compiler-class",
+    editorClassName: "editor-class",
+    errorClassName: "error-class",
+  } },
+};
+```
+
 ## License
 
 [MIT](./LICENSE)
